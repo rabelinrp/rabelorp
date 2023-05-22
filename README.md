@@ -14,7 +14,7 @@ Adriana Saty
 
 
 ## Follow me:
-I also do content at [Twitch](https://www.twitch.tv/adrianasaty).
+I also do content at [Twitch](https://www.twitch.tv/rabelo)
 [Youtube](https://www.youtube.com/channel/UCPhVBS-1Uy-wIzj4hmjkcmA)
 and [Instagram](https://www.instagram.com/adriana.saty/)
 
