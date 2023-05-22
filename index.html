@@ -1,74 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus  Rabelo</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <script src="./script.js" defer></script>
+
+  <title>Rabelo Dev</title>
 </head>
-
 <body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="project.html">Projetos</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
 
-        <header>
-            <div class="center">
-                <img src="./img/rabelo.png"></img>
-            </div>
-            <h1>Matheus Rabelo</h1>
-            <h2>Desenvolvedor de Software</h2>
-        </header>
+  <main>
+    <section class="login">
 
-        <main>
-            <section>
-                <h3>Sobre mim</h3>
-                <p>Meu Nome é Matheus Rabelo tenho 22 anos, sou Skatista nas horas vagas, Sou Católico e faço parte da comunidade católica Shalom , Streamer e game jogo preferido é o Gta-rp eu comecei a mexer em computador desde criança no tempo de Lan House rsrsrs,   e comecei a me apaixonar pelo games mais ainda na minha Juventude, a qual eu passo a maior parte do tempo sentando   na cadeira de frente pro PC, gosto de ouvir 
-                    músicas Matue, Sopragod e musicas católica. 
-            <section>
-                <h3>Formação</h3>
-                <p>
-                    Desenvolvedor de Softwares, trabalho principalmente na Lingua do.lua  faço alguns scripts para cidades de fivem mecho em computador desde pequeno, e agora na Juventude comecei a fazer Cursos e me aprofundar na progamação, mais já muito experiente e dedicação para atender todos meus clientes.
-                </p>
-            </section>
-            <section>
-                <h3>Cursos</h3>
-                <p>
-                    Já fiz Cursos para aprofundamento em: Practium, Escolar de Software,  na UTD Universidade De Tecnologia Digital-fortaleza-ce.  fiz o Curso de técnico de Informatica no Senai.e estou em constante aprendizado e fazendo cursos.
-                   
-                </p>
-            </section>
-        </main>
+      <div class="wrapper">
+        <img src="./images/logo.png" class="login__logo">
 
-        <footer>
-            <a href="https://github.com/rabelinrp" target="_blank" rel="noopener noreferrer">
-                <img src="./img/github.svg"></img>
-                <p>Github</p>
-            </a>
-            <a href="https://www.linkedin.com/in/rabelo-matheus-ab8a8a277/" target="_blank" rel="noopener noreferrer">
-                <img src="./img/linkedin.svg"></img>
-                <p>Linkedin</p>
-            </a>
-            <a href="https://youtube.com/@Rabelinrp" target="_blank" rel="noopener noreferrer">
-                <img src="./img/youtube.svg"></img>
-                <p>Youtube</p>
-            </a>
-        </footer>
-    </div>
+        <h1 class="login__title">Fazer login</h1>
+    
+        <label class="login__label">
+          <span>nome de usuário</span>
+          <input type="text" name="username" class="input">
+        </label>
+  
+        <label class="login__label">
+          <span>senha</span>
+          <input type="password" name="password" class="input">
+        </label>
+  
+        <div class="login__icons">
+          <button type="button" class="icons__button">
+            <img src="./images/facebook-icon.png" alt="facebok">
+          </button>
+  
+          <button type="button" class="icons__button">
+            <img src="./images/google-icon.png" alt="facebok">
+          </button>
+  
+          <button type="button" class="icons__button">
+            <img src="./images/apple-icon.png" alt="facebok">
+          </button>
+        </div>
+  
+        <label class="login__label--checkbox">
+          <input type="checkbox" class="input--checkbox">
+          Manter login
+        </label>
+      </div>
 
+      <div class="wrapper">
+        <button type="button" class="login__button" disabled>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
+          </svg>
+        </button>
+  
+        <a href="#" class="login__link">não consegue iniciar sessão?</a>
+        <a href="#" class="login__link">criar conta</a>
+      </div>
+
+    </section>
+
+    <section class="wallpaper"></section>
+  </main>
+  
 </body>
-
 </html>
